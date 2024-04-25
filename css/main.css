@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+@import "./reset.css";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #161616;
+    color: #fff;
+}
+.header {
+    padding: 40px 0;
+    height: 1080px;
+    color: #fff;
+    background-image: url('./../img/background_img_header.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.header a {
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1468px;
+    padding: 0 20px;
+}
+
+
+.menu_btn {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+.test {
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_btn span {
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+
+
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+    width: 148px;
+    height: 40px;
+}
+
+.menu_list {
+    display: flex;
+    column-gap: 70px;
+    font-size: 20px; 
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.menu_item {
+    cursor: pointer;
+}
+
+.menu_link-active {
+    color: #FD0C17;
+    cursor: default;
+}
+
+.menu_link:hover {
+    color: #FD0C17;
+}
+
+
+.banner_title {
+    max-width: 600px;
+    margin: 198px 0 68px 0;
+    font-family: "Russo One";
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.banner-wrap_icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.banner_img {
+    width: 64px;
+    height: 64px;
+    margin-right: 26px;
+}
+
+.banner_txt {
+    font-size: 22px;
+    max-width: 600px;
+}
+
+#race-section {
+    padding-top: 66px;
+}
+
+.nextrace_txt {
+    width: 274px;
+    height: 60px;
+    background-color: #FD0C17;
+    border-radius: 20px;
+}
+
+.nextrace_text {
+    margin-left: 21px;
+    padding-top: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.race-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.nextrace_flag {
+    display: flex;
+    margin: 55px 0;
+}
+
+.nextrace_count {
+    font-size: 26px;
+    font-weight: medium;
+    text-transform: uppercase;
+    padding: 7px 40px;
+}
+
+.race_name {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    max-width: 610px;
+}
+
+.race_date {
+    margin-top: 36px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #F7BB08;
+    text-transform: uppercase;
+}
+
+.race_track {
+    font-size: 26px;
+    font-weight: medium;
+    text-transform: uppercase;
+}
+
+.track_img {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 690px;
+}
+
+.race_block {
+    margin-top: 87px;
+    max-width: 566px;
+    max-height: 225px;
+    background-color: #303030;
+    border-radius: 30px;
+    padding: 38px 42px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.soonrace-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.race_block_txt {
+    margin-left: 46px;
+}
+
+.soon_txt {
+    color: #FD0C17;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.bold_txt {
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+.flag2_img {
+    margin-top: 24px;
+    margin-left: 8px;
+}
+
+.date_yellow {
+    font-weight: bold;
+    color: #F7BB08;
+    width: 113px;
+    position: absolute;
+}
+
+.finish-wrap {
+    display: flex;
+}
+
+.race_block:hover {
+    box-shadow: 0px 4px 35px 0px rgba(255, 255, 255, 0.55);
+}
+
+.finish {
+    position: absolute;
+    width: 1135px;
+    height: 84px;
+    margin-top: 227px;
+    margin-left: 539px;
+    z-index: -1;
+    background-image: url('./../img/finish.svg');
+}
+
+
+.news-wrap {
+    display: grid;
+    justify-content: space-around;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(auto-fill, minmax(447px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 45px;
+}
+.news {
+    max-width: 447px;
+    border-radius: 30px;
+    text-align: left;
+    background-color: #303030;
+}
+.news:hover {
+    background: #FD0C17;
+    box-shadow: 0px 4px 35px 0px rgba(255, 255, 255, 0.55);
+}
+.news_img {
+    width: 447px;
+    height: 194px;
+}
+
+.news_title {
+    margin: 15px 20px 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.news_text {
+    margin: 0 20px 28px 20px;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+
+#news-section {
+    margin: 94px 0;
+}
+
+.section_title {
+    font-family: "Russo One";
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+table {
+    margin-top: 34px;
+    font-size: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+th {
+    padding: 16px 40px 16px 30px;
+    color: #FD0C17;
+    font-size: 22px;
+}
+
+table th:first-child {
+    border-top-left-radius: 20px;
+}
+table th:last-child {
+    border-top-right-radius: 20px;
+}
+td {
+    padding: 15px 35px;
+    font-weight: 500;
+}
+
+.yellow {
+    color: #F7BB08;
+}
+
+tr:nth-child(odd) {
+    background: #0D0D0D;
+  }
+
+tr:nth-child(even) {
+    background: #303030;
+}
+  
+.table_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.command {
+    width: 695px;
+}
+
+.border_left {
+    border-bottom-left-radius: 20px;
+}
+.border_right {
+    border-bottom-right-radius: 20px;
+}
+
+
+.emails_txt {
+    margin-top: 2px;
+    margin-bottom: 76px;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: medium;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    width: 498px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 15px 13px;
+}
+
+.emails-form_input_email {
+    margin-top: 25px;
+}
+
+.emails-form_btn {
+    margin-top: 40px;
+    width: 274px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FD0C17;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.emails-form_btn:hover {
+    opacity: 0.9;
+}
+
+#emails {
+    margin-top: 94px;
+    min-height: 992px;
+    background-image: url('./../img/background_emails.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+#footer-section {
+    height: 488px;
+    background-color: #B80008;
+    padding-top: 76px;
+}
+
+.logo_white {
+    max-width: 168px;
+}
+.footer_txt{
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-social-links {
+    margin-top: 122px;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-social_link {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+}
+
+.footer-social_link:nth-child(1) {
+    background-image: url('./../img/vk.svg');
+}
+.footer-social_link:nth-child(2) {
+    background-image: url('./../img/youtube.svg');
+}
+.footer-social_link:nth-child(3) {
+    background-image: url('./../img/telegram.svg');
+}
+
+footer {
+    font-family: "Montserrat";
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.footer_two, .footer_one, .footer_three {
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.footer_block {
+    display: flex;
+    gap: 75px;
+}
+
+.footer-nav_item {
+    margin-top: 14px;
+}
+
+.footer_title {
+    padding-bottom: 14px;
+    font-size: 26px;
+    font-family: "Russo One";
+}
+
+.footer-nav_link {
+    color: #fff;
+}
+
+.footer-nav_link:hover {
+    opacity: 0.9;
+}
